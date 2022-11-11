@@ -4,6 +4,7 @@
 ::after {
     box-sizing: border-box;
 }
+
 header {
     height: 45px;
     background-image: linear-gradient(to right,
@@ -80,6 +81,9 @@ input[type="text"]::placeholder {
     justify-content: center;
 }
 .placeholder {
+    list-style: none;
+    text-decoration: none;
+    color: black;
 outline: 1px solid grey;
 margin-right: 15px;
 margin-bottom: 15px;
@@ -104,7 +108,7 @@ img {
     display: block;
     margin: 0 auto;
     padding: 0;
-    max-width: 250px;
+    // max-width: 250px;
     height: 150px;
     object-fit: contain;
    
